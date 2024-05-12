@@ -52,10 +52,7 @@ html,body{
     height: 25%;
 }
 #section{
-   background: url(profile\ orgnl.jpg);
-   background-size: cover; /* Image ko puri div me fit karne ke liye */
-   background-position: center; /* Image ko div ke center me rakhne ke liye */
-   background-repeat: no-repeat; /* Image ko repeat hone se rokne ke liye */
+  background-color: #F3F4F8;
    opacity: 0.6;
     width: 80%;
     height: 100%;
