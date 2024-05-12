@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#navbar{
+    width: 20%;
+    height: 100%;
+    background-color: #F3F4F8;
+    text-align: center;
+    font-family: montserrat;
+}
+#header{
+    height: 30%;
+   font-weight: 200px;
+}
+
+#header h3{
+    padding-top: 18px;
+   
+}
+#header h4{
+    padding-top: 0.2px;
+}
+#header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#nav{
+    height: 45%;
+  
+}
+#nav h4{
+    padding-top: 23px;
+   
+}
+#footer{
+    height: 25%;
+}
+#section{
+   background: url(profile\ orgnl.jpg);
+   background-size: cover; /* Image ko puri div me fit karne ke liye */
+   background-position: center; /* Image ko div ke center me rakhne ke liye */
+   background-repeat: no-repeat; /* Image ko repeat hone se rokne ke liye */
+   opacity: 0.6;
+    width: 80%;
+    height: 100%;
+   
+    font-family: montserrat;
+}
+#section #heading {
+    height: 50%;
+   
+    
+}
+#section #heading h1{
+   padding: 300px 0px 0px 30px;
+   font-size: 75px;
+}
+#section #artical p{
+    font-size: 80px;
+    padding-left: 30px;
+}
+#section button{
+    width: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border: 4px solid black;
+    
+}
