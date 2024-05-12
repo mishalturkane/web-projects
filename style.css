@@ -18,6 +18,7 @@ html,body{
     background-color: #F3F4F8;
     text-align: center;
     font-family: montserrat;
+   
 }
 #header{
     height: 30%;
@@ -37,15 +38,17 @@ html,body{
     border-radius: 50%;
 }
 
-#nav{
+#navbar #nav h4 a{
+    color: black;
+    text-decoration: none;
     height: 45%;
-  
 }
 #nav h4{
     padding-top: 23px;
    
 }
 #footer{
+    padding-top: 20px;
     height: 25%;
 }
 #section{
